@@ -1,10 +1,10 @@
-#:four_leaf_clover: MegaSena Telegram bot :four_leaf_clover:
+# :four_leaf_clover: MegaSena Telegram bot :four_leaf_clover:
 
 - Esse script tem como objetivo facilitar a conferência de apostas feitas na MegaSena
 
 - Utilizando a api: https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/
 
-###:pushpin: Utilizando o script:
+### :pushpin: Utilizando o script:
 
 ```bash
 # Faça o clone deste repositório:
@@ -12,7 +12,7 @@
 git clone https://github.com/FelippeBritto/megasena-telegram-bot.git
 ```
 
-###:pushpin: .env
+### :pushpin: .env
 
 - Crie um arquivo .env no mesmo diretório contendo:
 
@@ -31,7 +31,7 @@ JOGO_1 = ["0", "0", "0", "0", "0", "0"];
 // Caso não queira adicionar as apostas no .env, apenas altere os valores em nossos_jogos
 ```
 
-###:pushpin: Telegram bot
+### :pushpin: Telegram bot
 
 - Para criar o seu bot no telgram, abra o app e pesquise nos chats por BotFather
 
@@ -39,7 +39,7 @@ JOGO_1 = ["0", "0", "0", "0", "0", "0"];
 
 - Siga os passos no chat e ao final obterá o token para utilizar neste script
 
-###:pushpin: Group ID
+### :pushpin: Group ID
 
 - Adicione o bot em um grupo
 
